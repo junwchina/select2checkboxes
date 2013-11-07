@@ -88,7 +88,7 @@
       .append($("<span>" + options["label_name"] + ": </span>").addClass("fieldLabel"))
 
     var select_status = $("<a/>").addClass("multi-select2-button")
-      .append(wrap.append("<span class='fieldValue'></span>"))
+      .append(wrap)
       .insertBefore(this)
 
 
