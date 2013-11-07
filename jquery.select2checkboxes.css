@@ -18,6 +18,7 @@
   display: none;
 }
 
+
 .multi-select2-boxes-container.active {
   display:block;
 }
@@ -188,3 +189,10 @@
   border-color: #999;
   color: #000;
 }
+
+
+.multi-select2-boxes-container .check-list-item, 
+.multi-select2-boxes-container .check-list-item label{
+  cursor:pointer;
+}
+
